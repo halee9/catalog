@@ -35,9 +35,7 @@ session.commit()
 item1 = Item(user_id=1, name="Golf Club Set",
              image_path="golf_set.jpg",
              description="A Full Set With A Great Combination Of Distance and \
-             Forgiveness Right Out Of The Box. Offers the performance men want \
-             for their game and an eye-catching look that suits their style. \
-             This set comes with 12 pieces (9 clubs, 2 headcovers, and 1 bag).",
+             Forgiveness Right Out Of The Box.",
              category=category1)
 session.add(item1)
 session.commit()
@@ -45,10 +43,7 @@ session.commit()
 item1 = Item(user_id=1, name="Putter",
              image_path="putter.jpg",
              description="The putter features a precise white finish which \
-             stands out when the putter is in the address position on the green.\
-              This contrast of the white color against the green grass really \
-              helps maintain focus on the alignment lines that help ensure that \
-              your putter is on target at start.",
+             stands out when the putter is in the address position on the green.",
              category=category1)
 session.add(item1)
 session.commit()
